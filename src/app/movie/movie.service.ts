@@ -11,8 +11,8 @@ import { Movie } from './movie';
 })
 export class MovieService {
 
-  private apiURL = "";
-  // private apiURL = "https://crudcrud.com/api/92d7bfc212704da2be552f4ab0b60091";
+  // private apiURL = "";
+  private apiURL = "https://crudcrud.com/api/92d7bfc212704da2be552f4ab0b60091";
    
   httpOptions = {
     headers: new HttpHeaders({
